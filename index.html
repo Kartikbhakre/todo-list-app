@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToDo-list</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="main">
-        <div id="box">
-            <h1>ToDo-App</h1>
-        <input id="input" placeholder="Enter value : ">
-        <button onclick="add()">add</button>
-        <ul></ul>
+    
+    <div id="outer">
+        
+        <div id="main">
+            <h2 id="heading">TODO-APP</h2>
+            <div id="div1">
+              <input id="inp" type ="text" placeholder="Enter todo....">
+              <button onclick="addtodo()">addToDo</button>
+            </div>
+            <div id="div2">
+              <ul></ul>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
+
