@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,sans-serif;
+}
+
+#outer{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(45deg,#facc15,#4338ca,#f97316);
+    padding:20px;
+}
+
+#main{
+    width:520px;
+    min-height:320px;
+    padding:25px;
+    border-radius:18px;
+    background:rgba(255,255,255,.18);
+    backdrop-filter:blur(14px);
+    border:1px solid rgba(255,255,255,.25);
+    box-shadow:0 20px 40px rgba(0,0,0,.25);
+}
+
+#heading{
+    text-align:center;
+    color:white;
+    font-size:34px;
+    margin-bottom:20px;
+    letter-spacing:2px;
+}
+
+#div1{
+    display:flex;
+    gap:10px;
+}
+
+#inp{
+    flex:1;
+    height:45px;
+    padding:0 15px;
+    border:none;
+    outline:none;
+    border-radius:10px;
+    font-size:15px;
+}
+
+#inp:focus{
+    box-shadow:0 0 10px rgba(255,255,255,.6);
+}
+
+#div1>button{
+    padding:0 18px;
+    border:none;
+    border-radius:10px;
+    background:#2563eb;
+    color:white;
+    cursor:pointer;
+    font-weight:600;
+    transition:.3s;
+}
+
+#div1>button:hover{
+    background:#1d4ed8;
+    transform:translateY(-2px);
+}
+
+#div2{
+    margin-top:20px;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:12px;
+    padding:12px;
+    border-radius:12px;
+    background:rgba(255,255,255,.22);
+    backdrop-filter:blur(8px);
+    transition:.3s;
+}
+
+li:hover{
+    transform:translateY(-2px);
+    background:rgba(255,255,255,.28);
+}
+
+input[type="checkbox"]{
+    width:18px;
+    height:18px;
+    accent-color:#2563eb;
+}
+
+span{
+    flex:1;
+    color:white;
+    font-size:17px;
+}
+
+.btn-box{
+    display:flex;
+    gap:8px;
+}
+
+.btn-box button{
+    border:none;
+    padding:8px 14px;
+    border-radius:8px;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.btn-box button:first-child{
+    background:#f59e0b;
+}
+
+.btn-box button:first-child:hover{
+    background:#d97706;
+}
+
+.btn-box button:last-child{
+    background:#ef4444;
+}
+
+.btn-box button:last-child:hover{
+    background:#dc2626;
+}
